@@ -14,9 +14,17 @@
     {% endfor %}
 </ul>
 
+<h3 id="show_msg"></h3>
+
 <form id="submit_form">
     <label for="guess">Enter Guess Letter:</label><br>
     <input type="text" id="guess" name="guess_val"><br>
     <input type="submit">
 </form>
+
+<div>
+    <h2>Score:<span id="score">0</span></h2>
+    <h2>TimeOut:<span id="timeOut">60</span></h2>
+</div>
+
 {% endblock %}
